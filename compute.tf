@@ -3,6 +3,6 @@ resource "aws_instance" "PoC_first_instance" {
     instance_type = "t2.micro"
     
     tags = {
-        Name = "DevOps-PoC-server"
+        Name = "DevOps-PoC-server-test"
     }
 }
